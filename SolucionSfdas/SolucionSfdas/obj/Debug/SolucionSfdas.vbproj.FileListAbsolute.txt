@@ -1,8 +1,0 @@
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\bin\SolucionSfdas.dll
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\bin\SolucionSfdas.pdb
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\bin\SolucionSfdas.xml
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\obj\Debug\SolucionSfdas.Resources.resources
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\obj\Debug\SolucionSfdas.vbproj.GenerateResource.Cache
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\obj\Debug\SolucionSfdas.dll
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\obj\Debug\SolucionSfdas.xml
-K:\sfdas\SOURCE\sfdas\SolucionSfdas\SolucionSfdas\obj\Debug\SolucionSfdas.pdb
