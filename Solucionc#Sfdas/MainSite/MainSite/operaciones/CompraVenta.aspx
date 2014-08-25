@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <script type="text/javascript" src="../Scripts/Calculos/campos.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -48,35 +49,46 @@
                 </asp:TableCell>                
                 
                 <asp:TableCell>
-                    <asp:TextBox id="price" runat="server"></asp:TextBox>
+                    <asp:TextBox id="price" runat="server" Text="0"></asp:TextBox>
                 </asp:TableCell>                
             </asp:TableRow>
 
             <asp:TableRow ID="TableRow4" runat="server">
                 <asp:TableCell>
-                   % Comision 
+                   Subtotal
                 </asp:TableCell>                
                 
                 <asp:TableCell>
-                    <asp:TextBox id="Comi" runat="server"></asp:TextBox>
+                    <asp:TextBox id="subt" runat="server"></asp:TextBox>
                 </asp:TableCell>                
             </asp:TableRow>
 
             <asp:TableRow ID="TableRow5" runat="server">
                 <asp:TableCell>
+                   % Comision 
+                </asp:TableCell>                
+                
+                <asp:TableCell>
+                    <asp:TextBox id="comi" runat="server"></asp:TextBox>
+                </asp:TableCell>                
+            </asp:TableRow>
+
+            <asp:TableRow ID="TableRow6" runat="server">
+                <asp:TableCell>
                     Total Operacion
                 </asp:TableCell>                
                 
                 <asp:TableCell>
-                    <asp:TextBox id="Total" runat="server"></asp:TextBox>
+                    <input type="text" size="3" id="total" value="0" readonly="true" />
                 </asp:TableCell>                
             </asp:TableRow>            
-            <asp:TableRow runat="server">
+            <asp:TableRow runat="server" ID="trbuttons" Visible="true">
                 <asp:TableCell>
-                    <asp:ImageButton ID="buy" runat="server"  ImageUrl="~/Images/boton_comprar.png" AlternateText="Comprar" />
+                    <asp:ImageButton ID="buy" runat="server"  ImageUrl="~/Images/boton_comprar.png"  AlternateText="Comprar" OnClientClick="calculoTotal(quant.value, price.value, subt, comi.value, 1, total, buy);  return false" />
+
                 </asp:TableCell>
                 <asp:TableCell>
-                    <asp:ImageButton ID="sell" runat="server"  ImageUrl="~/Images/boton_vender.jpg" AlternateText="Vender" />
+                    <asp:ImageButton ID="sell" runat="server"  ImageUrl="~/Images/boton_vender.jpg" AlternateText="Vender" OnClientClick="calculoTotal(quant.value, price.value, subt, comi.value, 0, total, trbuttons);  return false"/>
                 </asp:TableCell>                
             </asp:TableRow>
             

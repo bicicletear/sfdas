@@ -37,8 +37,10 @@ namespace MainSite.operaciones
             if (this.Context.Request.QueryString["price"] != null)
             {
                 price.Text = this.Context.Request.QueryString["price"].ToString();
-
             }
+
+            //agrego atributos js
+            this.price.Attributes.Add("OnChange", "javascript:return calculo(quant.value, this.value, subt);");
 
         }
 

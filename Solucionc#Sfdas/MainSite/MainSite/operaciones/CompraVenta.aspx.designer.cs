@@ -112,13 +112,13 @@ namespace MainSite.operaciones {
         protected global::System.Web.UI.WebControls.TableRow TableRow4;
         
         /// <summary>
-        /// Comi control.
+        /// subt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Comi;
+        protected global::System.Web.UI.WebControls.TextBox subt;
         
         /// <summary>
         /// TableRow5 control.
@@ -130,13 +130,31 @@ namespace MainSite.operaciones {
         protected global::System.Web.UI.WebControls.TableRow TableRow5;
         
         /// <summary>
-        /// Total control.
+        /// comi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Total;
+        protected global::System.Web.UI.WebControls.TextBox comi;
+        
+        /// <summary>
+        /// TableRow6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TableRow6;
+        
+        /// <summary>
+        /// trbuttons control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow trbuttons;
         
         /// <summary>
         /// buy control.
